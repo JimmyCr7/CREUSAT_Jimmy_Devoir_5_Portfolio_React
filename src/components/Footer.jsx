@@ -4,7 +4,7 @@ import logolinkedin from '../img/svg/linkedin-logo.svg';
 
 const Footer = () => {
     return(
-        <footer class="bg-dark row justify-content-center text-left text-white px-4">
+        <footer class="bg-dark row justify-content-center text-left text-white p-4">
             <section class="col-lg-3 col-sm-12 py-2">
                 <h2>Jimmy CREUSAT</h2>
                 <address>
