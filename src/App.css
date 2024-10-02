@@ -1,3 +1,108 @@
+main{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+main > section:first-of-type{
+  background-image: url('./img/hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.9;
+}
+
+main > section:first-of-type > h2{
+  font-size: 4em;
+}
+
+main > section:first-of-type > h3{
+  font-size: 3em;
+}
+
+main > section:first-of-type > h2, h3{
+  /*color: white;*/
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main > section:first-of-type > button{
+  display: block;
+  width: max-content;
+  /*background-color: red;*/
+  padding: 6px 16px;
+  border-radius: 8px;
+  /*color: white;*/
+  border: none;
+  outline: none;
+}
+
+main > section:not(section:first-of-type){
+  /*width: 35%;*/
+  padding: 24px;
+}
+
+main > section > hr{
+  /*border: 2px solid blue;*/
+}
+
+main > section > img{
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 8px;
+}
+
+main > section > em{
+  font-style: normal;
+  font-weight: bold;
+}
+
+main > section > div{
+  width: 100%;
+  border-radius: 48px;
+  background-color: gray;
+  height: 16px;
+  margin-bottom: 16px;
+}
+
+main > section > div > div{
+  height: 100%;
+  border-radius: 48px 0px 0px 48px;
+}
+
+main > section > div:first-of-type > div{
+  /*background-color: red;*/
+  width: 90%;
+}
+
+main > section > div:nth-of-type(2) > div{
+  /*background-color: cyan;*/
+  width: 80%;
+}
+
+main > section > div:nth-of-type(3) > div{
+  /*background-color: orange;*/
+  width: 70%;
+}
+
+main > section > div:nth-of-type(4) > div{
+  /*background-color: green;*/
+  width: 60%;
+}
+
+main > section > div:last-of-type > div{
+  /*background-color: blue;*/
+  width: 50%;
+}
+
 footer a{
   color: white;
 }
