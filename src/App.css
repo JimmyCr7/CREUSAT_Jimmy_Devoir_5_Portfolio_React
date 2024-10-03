@@ -92,7 +92,7 @@ main > section > div:last-of-type > div{
 }
 HOME PAGE */
 
-
+/* CONTACT PAGE
 main img{
   display: block;
   width: 20px;
@@ -101,6 +101,13 @@ main img{
 
 main iframe{
   width: 100%;
+}
+*/
+
+main img{
+  display: block;
+  width: 24px;
+  height: 24px;
 }
 
 footer a{
