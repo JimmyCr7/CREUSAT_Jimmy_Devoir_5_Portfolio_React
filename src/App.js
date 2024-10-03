@@ -5,12 +5,13 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Mentions from './pages/Mentions';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Mentions />
+      <Portfolio />
       <Footer />
     </div>
   );
