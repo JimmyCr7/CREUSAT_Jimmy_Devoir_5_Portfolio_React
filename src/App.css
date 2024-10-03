@@ -104,10 +104,20 @@ main iframe{
 }
 */
 
+/* MENTIONS PAGE 
 main img{
   display: block;
   width: 24px;
   height: 24px;
+}
+*/
+
+main > div:first-of-type{
+  background-image: url('./img/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
 }
 
 footer a{
