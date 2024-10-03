@@ -112,12 +112,28 @@ main img{
 }
 */
 
+/* PORTFOLIO PAGE
 main > div:first-of-type{
   background-image: url('./img/banner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 200px;
+}
+*/
+
+main > div:first-of-type{
+  background-image: url('./img/banner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+main img{
+  width: 48px;
+  height: 48px;
+  filter: invert(30%) sepia(88%) saturate(1735%) hue-rotate(191deg) brightness(91%) contrast(98%);
 }
 
 footer a{

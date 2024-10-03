@@ -6,12 +6,13 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Mentions from './pages/Mentions';
 import Portfolio from './pages/Portfolio';
+import Services from './pages/Services';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Portfolio />
+      <Services />
       <Footer />
     </div>
   );
