@@ -1,0 +1,9 @@
+main img{
+    display: block;
+    width: 20px;
+    height: 20px;
+  }
+  
+  main iframe{
+    width: 100%;
+  }
