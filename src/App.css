@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'NunitoSansRegular';
+  src: url('./fonts/NunitoSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NunitoSansBold';
+  src: url('./fonts/NunitoSans-Bold.ttf');
+}
+
+h1, h2, h3, strong{
+  font-family: 'NunitoSansBold';
+}
+
+p, em, a{
+  font-family: 'NunitoSansRegular';
+} 
+
 /* HOME PAGE
 main{
   display: flex;
@@ -122,6 +140,7 @@ main > div:first-of-type{
 }
 */
 
+/* SERVICES PAGE
 main > div:first-of-type{
   background-image: url('./img/banner.jpg');
   background-repeat: no-repeat;
@@ -135,26 +154,5 @@ main img{
   height: 48px;
   filter: invert(30%) sepia(88%) saturate(1735%) hue-rotate(191deg) brightness(91%) contrast(98%);
 }
+  */
 
-footer a{
-  color: white;
-}
-
-footer > section:first-of-type p{
-  margin: 0;
-}
-
-footer img {
-  display: block;
-  width: 24px;
-  height: 24px;
-  filter: invert(100%);
-  margin: 0px 10px;
-  opacity: 0.4;
-}
-
-footer div{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}

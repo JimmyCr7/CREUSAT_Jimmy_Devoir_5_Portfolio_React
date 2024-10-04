@@ -1,6 +1,7 @@
 import logogithub from '../img/svg/github-logo.svg';
 import logotwitter from '../img/svg/twitter-logo.svg';
 import logolinkedin from '../img/svg/linkedin-logo.svg';
+import '../css/footer-style.css';
 
 const Footer = () => {
     return(
