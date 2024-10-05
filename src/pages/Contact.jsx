@@ -23,7 +23,7 @@ const Contact = () => {
                         <input class="btn btn-primary d-block mx-auto" type="submit" name="sendMessContact" value="Envoyer"/>
                     </form>
                 </section>
-                <section class="col-lg-4 col-sm-12">
+                <section id="container-coordonnees" class="col-lg-4 col-sm-12">
                     <h2>Mes coordonnées</h2>
                     <hr class="border border-2 border-primary" />
                     <strong>Jimmy Creusat</strong>
