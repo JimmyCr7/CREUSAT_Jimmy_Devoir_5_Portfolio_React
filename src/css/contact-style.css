@@ -1,9 +1,9 @@
-main img{
-    display: block;
-    width: 20px;
-    height: 20px;
-  }
-  
-  main iframe{
-    width: 100%;
-  }
+main section#container-coordonnees img{
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+
+main section#container-coordonnees iframe{
+  width: 100%;
+}
