@@ -3,8 +3,15 @@ import imgZoom from '../img/svg/zoom-logo.svg';
 import imgCode from '../img/svg/code-logo.svg';
 import imgBrush from '../img/svg/brush-logo.svg';
 import '../css/services-style.css';
+import { useEffect } from 'react';
+import togglerActiveLinks from '../js/togglerActiveNavLinks';
 
 const Services = () => {
+
+    useEffect(() => {
+        togglerActiveLinks(1);
+    }, []);
+
     return(
         <main>
             <div className="mb-3 img-banner"></div>

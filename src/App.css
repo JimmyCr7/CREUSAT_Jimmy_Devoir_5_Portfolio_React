@@ -16,6 +16,23 @@ p, em, a{
   font-family: 'NunitoSansRegular';
 } 
 
+div.card{
+  -webkit-transition-property: background-color, box-shadow;
+  -moz-transition-property: background-color, box-shadow;
+  -o-transition-property: background-color, box-shadow;
+  transition-property: background-color, box-shadow;
+
+  -webkit-transition-duration: 250ms;
+  -moz-transition-duration: 250ms;
+  -o-transition-duration: 250ms;
+  transition-duration: 250ms;
+}
+
+div.card:hover{
+  background-color: #efefef;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
+}
+
 /* HOME PAGE
 main{
   display: flex;
