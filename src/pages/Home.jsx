@@ -1,7 +1,14 @@
 import imgAbout from '../img/john-doe-about.jpg';
 import '../css/home-style.css';
+import togglerActiveLinks from '../js/togglerActiveNavLinks';
+import { useEffect } from 'react';
 
 const Home = () => {
+
+    useEffect(() => {
+        togglerActiveLinks(0);
+    }, []);
+
     return(
         <main>
             <section id="container-presentation">

@@ -6,8 +6,15 @@ import imgSEO from '../img/portfolio/seo.jpg';
 import imgAPI from '../img/portfolio/coder.jpg';
 import imgMaquette from '../img/portfolio/screens.jpg';
 import '../css/portfolio-style.css';
+import togglerActiveLinks from '../js/togglerActiveNavLinks';
+import { useEffect } from 'react';
 
 const Portfolio = () => {
+
+    useEffect(() => {
+        togglerActiveLinks(2);
+    }, []);
+
     return(
         <main>
             <div class="mb-3 img-banner"></div>

@@ -4,8 +4,15 @@ import imgMobile from '../img/svg/mobile-logo.svg';
 import imgMail from '../img/svg/mail-logo.svg';
 import imgWeb from '../img/svg/website-logo.svg';
 import '../css/mentions-style.css';
+import togglerActiveLinks from '../js/togglerActiveNavLinks';
+import { useEffect } from 'react';
 
 const Mentions = () => {
+
+    useEffect(() => {
+        togglerActiveLinks(4);
+    }, []);
+
     return(
         <main>
             <h2 class="text-center mt-3">Mentions légales</h2>

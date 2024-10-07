@@ -3,8 +3,15 @@ import imgPosition from '../img/svg/position-logo.svg';
 import imgMobile from '../img/svg/mobile-logo.svg';
 import imgMail from '../img/svg/mail-logo.svg';
 import '../css/contact-style.css';
+import togglerActiveLinks from '../js/togglerActiveNavLinks';
+import { useEffect } from 'react';
 
 const Contact = () => {
+
+    useEffect(() => {
+        togglerActiveLinks(3);
+    }, []);
+
     return(
         <main class="my-4 flex-column">
             <h1 class="text-center w-100">Contact</h1>
