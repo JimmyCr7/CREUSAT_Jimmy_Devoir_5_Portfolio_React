@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Header = () => {
     return(
         <header>
@@ -10,19 +12,24 @@ const Header = () => {
                     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        {/*<a class="nav-link active" aria-current="page" href="#">Home</a>*/}
+                        <Link class="nav-link text-uppercase active" aria-current="page" to="/">Home</Link>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        {/*<a class="nav-link" href="#">Services</a>*/}
+                        <Link class="nav-link text-uppercase" to="/services">Services</Link>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        {/*<a class="nav-link" href="#">Portfolio</a>*/}
+                        <Link class="nav-link text-uppercase" to="/portfolio">Portfolio</Link>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        {/*<a class="nav-link" href="#">Contact</a>*/}
+                        <Link class="nav-link text-uppercase" to="/contact">Contact</Link>
                         </li>
                         <li class="nav-item">
-                        <a class="nav-link" href="#">Mentions légales</a>
+                        {/*<a class="nav-link" href="#">Mentions légales</a>*/}
+                        <Link class="nav-link text-uppercase" to="/mentions">Mentions légales</Link>
                         </li>
                     </ul>
                     </div>
