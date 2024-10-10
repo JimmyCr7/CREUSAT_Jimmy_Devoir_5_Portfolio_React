@@ -28,17 +28,48 @@
     margin-bottom: 20px;
   }
   
-  main section#container-me, section#container-skills{
+  main article#container-me,article#container-skills{
     padding: 24px;
   }
   
-  main section#container-me > img{
+  main article#container-me > img{
     width: 100%;
     object-fit: cover;
     margin-bottom: 8px;
   }
   
-  main section#container-skills > em{
+  main article#container-skills > em{
     font-style: normal;
     font-weight: bold;
+  }
+
+  div.modal-header > button{
+    filter: invert(100%);
+  }
+
+  div.modal-body > section > img{
+    object-fit: cover;
+  }
+
+  div.modal-body aside img{
+    display: block;
+    width: 24px;
+    height: 24px;
+    filter: invert(100%);
+  }
+
+  @media all and (max-width: 767px){
+
+
+    div.modal-body > section{
+      flex-direction: column;
+    }
+
+    div.modal-body > section > *{
+      min-width: 100%;
+    }
+
+    div.modal-body > section > aside{
+      margin-top: 16px;
+    }
   }
