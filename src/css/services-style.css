@@ -7,7 +7,7 @@ main > div.img-banner{
   width: 100%;
 }
 
-main > section#container-services img{
+div#container-services img{
   display: block;
   width: 96px;
   height: 96px;

@@ -1,26 +1,31 @@
 footer a{
-    color: white;
-  }
-  
-  footer > section:first-of-type p{
-    margin: 0;
-  }
-  
-  footer img {
-    display: block;
-    width: 24px;
-    height: 24px;
-    filter: invert(100%);
-    margin: 0px 10px;
-    opacity: 0.4;
-  }
+  color: white;
+  text-decoration: none;
+}
 
-  footer img:hover{
-    opacity: 1;
-  }
+footer a:hover{
+  font-family: 'NunitoSansBold';
+}
   
-  footer div{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-  }
+footer > section:first-of-type p{
+  margin: 0;
+}
+  
+footer img {
+  display: block;
+  width: 24px;
+  height: 24px;
+  filter: invert(100%);
+  margin: 0px 10px;
+  opacity: 0.4;
+}
+
+footer img:hover{
+  opacity: 1;
+}
+  
+footer div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
